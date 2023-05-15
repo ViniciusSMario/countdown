@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://a.cdn-hotels.com/gdcs/production73/d639/bbc78384-7a78-4cf9-967b-939d031b432d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown {
+    font-size: 48px;
+    margin-top: 25%;
+    text-align: center;
+    background: #FFFFFF;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-inside {
+    background: #10a724;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#title-class {
+    font-size: 56px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+    background-color: #10a724;
+}
