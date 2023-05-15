@@ -43,3 +43,8 @@ body {
     border: 1px solid #FFFFFF;
     background-color: #10a724;
 }
+
+.row>* {
+    display: flex;
+    justify-content: center
+}
