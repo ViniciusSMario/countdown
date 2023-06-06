@@ -5,6 +5,13 @@ function countdown() {
     var currentDate = new Date();
     var difference = targetDate - currentDate;
 
+    $("#success").hide();
+
+    if (difference <= 0) {
+        $("#countdown").hide();
+        $("#success").show();
+    }
+
     // Calcula os dias, horas, minutos e segundos restantes
     var days = Math.floor(difference / (1000 * 60 * 60 * 24));
     var hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
